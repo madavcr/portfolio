@@ -441,6 +441,21 @@ section .title::after{
     background: crimson!important;
 }
 
+
+/* certificate */
+.teams .carousel .cards img{
+    height: 200px;
+    width: 220px;
+    object-fit: cover;
+    border-radius: 10%;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.teamcertificate .title::after{
+    content: "that i have";
+}
+
+
 /* contact section styling */
 .contact .title::after{
     content: "get in touch";
