@@ -169,22 +169,6 @@ section .title::after{
 
 /* home section styling */
  
-
-
-
-/* .home{
-    display: flex;
-    
-    background: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/2efb95177362967.64d4c8840ffab.png" ); ;
-    color: #fff;
-    min-height: 600px;
-    
-    background-size: cover;
-    
-    
-    background-attachment: fixed;
-    font-family: 'Ubuntu', sans-serif;
-} */
 .home {
     display: flex;
     background: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/2efb95177362967.64d4c8840ffab.png");
