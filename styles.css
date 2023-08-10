@@ -171,7 +171,7 @@ section .title::after{
 .home{
     display: flex;
     /* background: url("https://media.licdn.com/dms/image/C4E03AQGs4zk27XxfZw/profile-displayphoto-shrink_800_800/0/1648204338427?e=1695254400&v=beta&t=LJl2t1UvTROsLIg6sbsTq4uIohUlLwZ4fWMhYt_6jz8"); */
-    background: url("https://developer.apple.com/news/images/og/apple-developer-og.png"); ;
+    background: url("https://scontent.fpbh1-1.fna.fbcdn.net/v/t39.30808-6/364800770_2509748212527446_3805813516439254683_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=be3454&_nc_ohc=1U3i3XbBG5QAX_KOQGY&_nc_ht=scontent.fpbh1-1.fna&oh=00_AfBDjAKBobHKfTqd0alOHSwm5PWC1Az8kB2L-cFhrnJZ5A&oe=64D8C927"); ;
     color: #fff;
     min-height: 500px;
     background-size: cover;
