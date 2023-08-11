@@ -180,17 +180,19 @@ section .title::after{
     /* background:url("https://scontent.fpbh1-1.fna.fbcdn.net/v/t39.30808-6/364800770_2509748212527446_3805813516439254683_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=1U3i3XbBG5QAX_KOQGY&_nc_ht=scontent.fpbh1-1.fna&oh=00_AfBDjAKBobHKfTqd0alOHSwm5PWC1Az8kB2L-cFhrnJZ5A&oe=64D8C927"); */
     color: #fff;
     min-height: 800px;
-    background-size: cover;
+    background-size: 100% auto;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
-@media (max-width: 768px) {
+@media (max-width:600px) {
     .home {
         background-size: contain;
         background-attachment: scroll;
         min-height:auto;
+        font-size: 14px;
     }
 }
 
