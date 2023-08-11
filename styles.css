@@ -8,10 +8,7 @@
     text-decoration: none;
     
 }
-/* body{
-    background: #080808;
-    color: white;
-}    */
+
 html{
     scroll-behavior: smooth;
 }
@@ -62,6 +59,7 @@ section .title{
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
+
 section .title::before{
     content: "";
     position: absolute;
@@ -180,7 +178,7 @@ section .title::after{
     background: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/2efb95177362967.64d4c8840ffab.png");
     /* background:url("https://scontent.fpbh1-1.fna.fbcdn.net/v/t39.30808-6/364800770_2509748212527446_3805813516439254683_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=1U3i3XbBG5QAX_KOQGY&_nc_ht=scontent.fpbh1-1.fna&oh=00_AfBDjAKBobHKfTqd0alOHSwm5PWC1Az8kB2L-cFhrnJZ5A&oe=64D8C927"); */
     color: #fff;
-    min-height: 800px;
+    min-height: 500px;
     background-size:cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
@@ -188,14 +186,14 @@ section .title::after{
     overflow: hidden;
 }
 
-@media (max-width:1000px) {
+/* @media (max-width:800px) {
     .home {
         background-size:100%;
         background-attachment: scroll;
         min-height:auto;
         font-size: 14px;
     }
-}
+} */
 
 
 
@@ -208,15 +206,15 @@ section .title::after{
   
 }
 .home .home-content .text-1{
-    font-size: 30px;
+    font-size: 27px;
 }
 .home .home-content .text-2{
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 600;
     margin-left: -3px;
 }
 .home .home-content .text-3{
-    font-size: 30px;
+    font-size: 40px;
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
@@ -244,7 +242,7 @@ section .title::after{
 /* for small screen  */
 @media (max-width: 800px) {
     .home {
-        background-size: 100% auto; /* Adjust the background size for smaller screens */
+        background-size: 100% 50%; /* Adjust the background size for smaller screens */
     }
     
     .home-content {
