@@ -320,13 +320,17 @@
                             <textarea cols="30" rows="10" placeholder="Message" name="Message" required></textarea>
                         </div>
                         <div class="button-area">
-                            <button type="submit">Send message</button>
+                            <button type="submit" onclick="redirectToProfile()">Send message</button>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </section>
+ 
+    
+   
+    
 
     <!-- footer section start -->
     <footer>
@@ -334,5 +338,12 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        function redirectToProfile() {
+            // You can specify your profile website URL here
+            var profileURL = "https://madavdhaurali.github.io/portfolio/index.html?fbclid=IwAR2AN5lYG-HKvecZBqt6nGcnLivrnFF9QMymR90CtCQz9bGuZrbhb8fR4kk#"; // Replace with your actual URL
+            window.location.href = profileURL;
+        }
+    </script>
 </body>
 </html>
