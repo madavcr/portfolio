@@ -107,3 +107,4 @@ Array.from(cards).forEach((card, index) => {
     })})`
   })
 })
+        // When the user scrolls the page, execute myFunction 
